@@ -1,5 +1,12 @@
 <script setup lang="ts">
-import AreaIcon from "/area.svg";
+import { ref } from 'vue';
+
+let isAnimation = ref(false);
+
+setInterval(() => {
+    isAnimation.value = !isAnimation.value;
+}, 5000)
+
 defineProps({
 	name: {
 		default: "Nombre no registrado",
@@ -34,18 +41,19 @@ defineProps({
 		type: Boolean,
 	},
 });
+
 </script>
 
 <template>
 	<figure class="card">
-		<section v-bind:class="'head'">
+		<section v-bind:class="`head ${!isAnimation ? 'head-animation' : ''}`" >
 			<h3>{{ name }}</h3>
 			<section class="row-container">
 				<p>{{ description }}</p>
 				<span><object width="25px" data="/location.svg"></object>{{ location }}</span>
 			</section>
 		</section>
-		<section v-bind:class="'tail'"
+		<section v-bind:class="`tail ${!isAnimation ? '' : 'head-animation'}`"
 			>
             <p>
                 <object width="25px" data="/area.svg"></object>
