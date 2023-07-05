@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AreaIcon from "/area.svg";
 defineProps({
 	name: {
 		default: "Nombre no registrado",
@@ -45,17 +46,18 @@ defineProps({
 			</section>
 		</section>
 		<section v-bind:class="'tail'"
-			><p>
-				{{ `Área Total: ` }}
+			>
+            <p>
+                <object data="/area.svg"></object>
 				{{ totalArea > 0 ? `${totalArea} M` : "No registrada" }}
 			</p>
 			<p>
-				{{ `Terraza: ` }}
+                <object data="/terrace.svg"></object>
 				{{ terrace > 0 ? `${terrace} M` : "No" }}
 			</p>
 			<p>
-				{{ rooms > 0 ? rooms : "No especificado" }}
-				{{ `Recamaras` }}
+                <object data="/room.svg"></object>
+				{{ rooms > 0 ? `${rooms}` : "No registrado" }}
 			</p>
 		</section>
 		<section class="is-available">
