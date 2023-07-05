@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1 className="title">Nuestros Proyectos</h1>
+  <h1 className="title">Activos</h1>
   <main className="card-container">
 		<div
 			className="grid-container"

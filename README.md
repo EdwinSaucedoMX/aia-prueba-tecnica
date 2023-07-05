@@ -21,6 +21,12 @@ npm run build
 ---
 El proyecto se encuentra estructurado con la configuración básica de Vuejs, es decir la estructura de las carpetas y jerarquía se encuentra en la documentación oficial de Vuejs, únicamente la carpeta añadida de sass, dirigida hacia los estilos del proyecto.
 
+Para la realización de la prueba se utilizaron las siguientes tecnologías:
+* VueJS
+* SASS
+* Vite
+
+
 ## Componentes
 ---
 
