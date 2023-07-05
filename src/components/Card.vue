@@ -42,21 +42,21 @@ defineProps({
 			<h3>{{ name }}</h3>
 			<section class="row-container">
 				<p>{{ description }}</p>
-				<h5>{{ location }}</h5>
+				<span><object width="25px" data="/location.svg"></object>{{ location }}</span>
 			</section>
 		</section>
 		<section v-bind:class="'tail'"
 			>
             <p>
-                <object data="/area.svg"></object>
+                <object width="25px" data="/area.svg"></object>
 				{{ totalArea > 0 ? `${totalArea} M` : "No registrada" }}
 			</p>
 			<p>
-                <object data="/terrace.svg"></object>
+                <object width="25px" data="/terrace.svg"></object>
 				{{ terrace > 0 ? `${terrace} M` : "No" }}
 			</p>
 			<p>
-                <object data="/room.svg"></object>
+                <object width="25px" data="/room.svg"></object>
 				{{ rooms > 0 ? `${rooms}` : "No registrado" }}
 			</p>
 		</section>

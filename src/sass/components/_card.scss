@@ -15,9 +15,9 @@
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
-    width: 16em;
-    height: 16em;
-    padding: 10px;
+    width: 18em;
+    height: 18em;
+
     border-radius: 30px;
     transition: all ease-in-out 0.5s;
     position: relative;
@@ -28,36 +28,49 @@
         width: 100%;
     }
 
+    object{
+        width: 25px;
+        height: 25px;
+    }
+
     p {
         display: grid;
         place-items: center;
-        
-        grid-template-columns: 25px auto;
+        white-space: nowrap;
+        grid-template-columns: 1fr 1fr;
         height: 25px;
-        object {
-            width: 25px;
-            color: #01A7C6;
-        }
     }
 
     .row-container {
+        text-align: center;
+        align-self: center;
         display: grid;
         place-items: center;
+        width: 80%;
+        opacity: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25px !important;
 
-        opacity: 0.75;
-        p {
+        /* p {
+
             font-size: 11px;
             letter-spacing: 0.75px;
             font-weight: 600;
             text-transform: uppercase;
-        }
+            height: 25px;
+        } */
 
-        h5 {
+        span {
+            
+            white-space: nowrap;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 25px;
             font-weight: 630;
+            height: 25px;
         }
 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 
 
@@ -83,34 +96,39 @@
         color: #ffffff !important;
         z-index: 2;
         text-transform: uppercase;
+
         .available {
             background-color: green;
         }
 
         .unavailable {
-            background-color: rgba(56, 56, 56, 0.466) ;
-            
+            background-color: rgba(56, 56, 56, 0.466);
+
         }
-        .available, .unavailable{
+
+        .available,
+        .unavailable {
             padding: 5px;
             border-radius: 30px;
         }
 
     }
 
-    
 
-    .head, .tail{
+
+    .head,
+    .tail {
         position: absolute;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         gap: 10px;
         background-color: white;
+        
         width: 100%;
-        padding: 25%;
         height: 100%;
         border-radius: 30px;
+
     }
 
 
@@ -126,24 +144,24 @@
             color: #000;
         }
 
-        .head{
+        .head {
             animation: show-transition ease-in-out 5s infinite;
             z-index: 3;
+
             &:hover {
 
-                .tail{
+                .tail {
                     animation-delay: 5s;
                     animation: show-transition ease-in-out 5s infinite;
                 }
             }
         }
 
-        background-color: #ffffff5b;
 
-        
 
         img {
             opacity: 0.2;
+
         }
     }
 }
