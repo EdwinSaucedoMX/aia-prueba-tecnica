@@ -34,12 +34,15 @@ Para la realización de la prueba se utilizaron las siguientes tecnologías:
 
 Propiedades | Tipo | Default
 ------------|------|--------
-name        |string|""
+name        |string|"Nombre no registrado"
 description |string|"Sin descripción"
-location    |string|"No registrada"
+location    |string|"Ubicación no registrada"
 totalArea   |number| -1
 img         |string| "/no-image"
 terrace     |number| -1
 rooms       |number| -1
 isAvailable |boolean| false
+
+## Instrucciones Adicionales
 ---
+El componente Card tiene un evento de hover, cada 5 seg actualiza la información mostrada.
