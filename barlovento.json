@@ -1,0 +1,10 @@
+{
+  "name": "AIA Barlovento",
+  "description": "Departamentos",
+  "location": "San Luis Potosí",
+  "totalArea": 116.72,
+  "img": "https://www.aiapartner.com/public/img/proyects/60d5ef025a77b328dc591f7a.jpg",
+  "terrace": 13.12,
+  "rooms": 2,
+  "isAvailable": false
+}

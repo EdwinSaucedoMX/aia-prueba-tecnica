@@ -1,0 +1,52 @@
+[
+  {
+    "name": "AIA Barlovento",
+    "description": "Departamentos",
+    "location": "San Luis Potosí",
+    "totalArea": 116.72,
+    "img": "https://www.aiapartner.com/public/img/proyects/60d5ef025a77b328dc591f7a.jpg",
+    "terrace": 13.12,
+    "rooms": 2,
+    "isAvailable": false
+  },
+  {
+    "name": "AIA León",
+    "description": "Casas",
+    "location": "Nuevo León",
+    "totalArea": 132,
+    "img": "https://www.aiapartner.com/public/img/proyects/60db8b689517e71d5033e9f2.jpg",
+    "terrace": 0,
+    "rooms": 3,
+    "isAvailable": true
+  },
+  {
+    "name": "AIA Verde",
+    "description": "Departamentos",
+    "location": "San Luis Potosí",
+    "totalArea": 107,
+    "img": "https://www.aiapartner.com/public/img/proyects/612412683ae3f20030f5957d.jpeg",
+    "terrace": 15.2,
+    "rooms": 2,
+    "isAvailable": false
+  },
+  {
+    "name": "AIA Roja",
+    "description": "Departamentos",
+    "location": "Guanajuato",
+    "totalArea": 168.1,
+    "img": "https://www.aiapartner.com/public/img/proyects/6127f1a908bc42002fcf27c3.webp",
+    "terrace": 23.2,
+    "rooms": 3,
+    "isAvailable": false
+  },
+  {
+    "name": "AIA Azul",
+    "description": "Departamentos",
+    "location": "San Luis Potosí",
+    "totalArea": 132,
+    "img": "https://www.aiapartner.com/public/img/proyects/61e0a72d8457cd38862ea4c2.png",
+    "terrace": 14.8,
+    "rooms": 2,
+    "isAvailable": true
+  }
+]
