@@ -51,7 +51,7 @@ necesario que las desarrolles.**
 - Utilizar Vue para desarrollar la solución, dado que en AIA Partners es el
   framework que utilizamos para realizar los proyectos.
 - Generar al menos un cambio en el diseño de la card. Modifica el diseño tanto
-  como quieras, pero manteniendo la paleta de colores original.
+  como quieras, pero manteniendo la paleta de colores> original.
 - Genera todas las cards necesarias para mostrar el arreglo de proyectos que se
   encuentra en el archivo [**proyectos.json**](./proyectos.json).
   - Muestra primero los proyectos activos (indicado con la propiedad

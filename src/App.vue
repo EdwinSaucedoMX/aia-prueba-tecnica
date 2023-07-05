@@ -15,7 +15,6 @@ onMounted(() => {
 				a.isAvailable < b.isAvailable ? 1 : -1
 			);
 
-			console.log(result);
 		});
 });
 </script>
