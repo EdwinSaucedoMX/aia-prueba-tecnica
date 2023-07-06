@@ -56,15 +56,24 @@ defineProps({
 		<section v-bind:class="`tail ${!isAnimation ? '' : 'head-animation'}`"
 			>
             <p>
-                <object width="25px" data="/area.svg"></object>
+				<span>
+					<object width="25px" data="/area.svg"></object>
+					<sub>Total</sub>
+				</span>
 				{{ totalArea > 0 ? `${totalArea} M` : "No registrada" }}
 			</p>
 			<p>
-                <object width="25px" data="/terrace.svg"></object>
+				<span>
+					<object width="25px" data="/terrace.svg"></object>
+					<sub>Terraza</sub>
+				</span>
 				{{ terrace > 0 ? `${terrace} M` : "No" }}
 			</p>
 			<p>
-                <object width="25px" data="/room.svg"></object>
+				<span>
+					<object width="25px" data="/room.svg"></object>
+					<sub>Cuartos</sub>
+				</span>
 				{{ rooms > 0 ? `${rooms}` : "No registrado" }}
 			</p>
 		</section>
